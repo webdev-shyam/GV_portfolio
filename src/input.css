@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import "tailwindcss";
+* {
+  cursor: none;
+}
+.container {
+  padding: 0px 20px;
+  max-width: 1560px;
+  border-radius: 12px;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* Customizing the nav-items */
+ul > li > a:hover {
+  color: aquamarine;
+  transition: all 0.5s ease-in-out;
+}
+
+
+/* Adding custom cursor */
+#cursor-inner, #cursor-outer {
+  position: fixed;
+  
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  transition: transform 0.15s ease-out, background 0.3s, width 0.3s, height 0.3s;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+#cursor-inner {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgb(236, 6, 6);
+  box-shadow: 5px 3px 10px rgba(8, 34, 228, 0.2);
+}
+
+#cursor-outer {
+  width: 40px;
+  height: 40px;
+  border: 2px solid rgb(5, 14, 16);
+  border-radius: 50%;
+  mix-blend-mode: difference;
+  opacity: 0.6;
+  box-shadow: 5px 3px 10px rgb(9, 251, 73);
+}
+@media screen and (max-width: 599px) {
+  header {
+    align-items: center;
+    height: auto;
+    gap: 1.5rem;
+  }
+
+
+  /* Hero responsiveness */
+  #hero-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: auto;
+  }
+
+  .dev-image {
+    width: 100%;
+    height: auto;
+    order: 1;
+  }
+
+  .dev-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .hero-title {
+    order: 2;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+    #hero-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: auto;
+  }
+  .dev-image {
+    width: 100%;
+    height: auto;
+    order: 1;
+  }
+  .dev-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .hero-title {
+    order: 2;
+  }
+}
+
