@@ -1,66 +1,89 @@
-# 🚀 Portfolio Website - **Ganeshyam Verma**
+# 🧑‍💻 Ganeshyam Verma – Portfolio Website  
 
-![🌐 Homepage Screenshot](assets/homepage-ss.png)
-
----
-
-## 🔍 **Overview**
-
-Welcome to my personal portfolio website!  
-I am **Ganeshyam Verma**, a passionate **Frontend Developer** dedicated to crafting clean, responsive, and user-friendly web interfaces.
-
-This portfolio showcases my skills, projects, and contact information — a snapshot of what I can offer to potential employers and clients.
+**Live Demo:** [https://gv-portfolio-ghfo.vercel.app/](https://gv-portfolio-ghfo.vercel.app/)  
+**Repository:** [https://github.com/webdev-shyam/GV_portfolio](https://github.com/webdev-shyam/GV_portfolio)  
 
 ---
 
-## 🛠️ **Technologies Used**
+## 📖 About This Project  
 
-- **HTML5**  
-- **CSS3 & Tailwind CSS**  
-- **JavaScript (ES6+)**  
-- **Bootstrap 5**  
-- **AOS (Animate On Scroll)** for smooth animations  
-- Custom media queries for responsiveness
+This is my **personal portfolio website**, created to showcase my projects, skills, and growth as a **Frontend Web Developer**.  
+Built using **Next.js (App Router)** and **Tailwind CSS**, it delivers a fast, responsive, and visually polished user experience — optimized for both performance and SEO.  
 
 ---
 
-## 🎯 **Features**
+## 🚀 Features  
 
-- Fully **responsive design** — looks great on all screen sizes  
-- Smooth **scrolling navigation**  
-- Interactive **project cards** with live demo links  
-- Custom **cursor animation** for unique UX  
-- Contact form integrated with **Formspree** for easy inquiries
+- ⚡ **Next.js 14 App Router** structure  
+- 🎨 Modern, fully responsive UI with Tailwind CSS  
+- 🧭 Smooth client-side navigation using `next/link`  
+- 🧠 Reusable and scalable React components  
+- 📂 Clean folder organization for easy maintenance  
+- 🔗 Live project demos and GitHub links  
+- 📱 Optimized for performance and accessibility  
 
 ---
 
-## 📁 **Project Structure**
+## 🛠️ Tech Stack  
 
-```plaintext
-/
-├── assets/
-│   ├── homepage-ss.png
-│   ├── profile-picture.png
-│   └── ...other images
-├── index.html
-├── main.css
-├── main.js
+- **Next.js 14** – React framework for SSR and routing  
+- **React** – Component-based UI library  
+- **Tailwind CSS** – Utility-first CSS framework  
+- **Lucide Icons** – Clean, consistent icon set  
+- **Vercel** – Hosting and deployment  
+
+---
+
+## ⚙️ Getting Started  
+
+To run this project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/webdev-shyam/GV_portfolio.git
+
+# Navigate into the project directory
+cd GV_portfolio
+
+# Install dependencies
+npm install
+
+
+📁 Folder Structure
+GV_portfolio/
+├── app/
+│   ├── components/
+│   ├── layout.jsx
+│   ├── page.jsx
+│   └── ...
+├── public/
+│   └── assets/
+│       └── logo.png
+├── styles/
+├── package.json
 └── README.md
-📬 Contact Me
-Feel free to reach out for collaborations, freelance projects, or just to say hi!
 
-📧 wid2839@gmail.com
+🌙 Add dark/light theme toggle
 
-🔗 GitHub Profile
+💬 Add contact form with email service (e.g., EmailJS)
 
-🔗 LinkedIn Profile
+🎞️ Animate sections with Framer Motion
 
-📌 Live Demo
-Check out the live site here:
-🌐 https://codebyganeshyam.netlify.app/
+🧩 Improve SEO metadata and Open Graph tags
 
-⭐ Feedback & Contributions
-If you find this portfolio useful or have suggestions, please open an issue or reach out. Contributions and feedback are always welcome!
+👨‍🎨 Author
 
-Thank you for visiting! 🙏
-— Ganeshyam Verma
+Ganeshyam Verma
+Frontend Developer · JavaScript Enthusiast · UI/UX Learner
+
+💼 Portfolio: https://gv-portfolio-ghfo.vercel.app/
+
+📧 Email: webdevshyam@outlook.com
+
+📜 License
+
+This project is open source and available under the MIT License
+.
+
+# Run the development server
+npm run dev
