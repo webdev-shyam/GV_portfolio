@@ -344,7 +344,7 @@ function App() {
             <div className="relative">
               <div className="relative z-10">
                 <img 
-                  src="/assets/Portfolio_img.png" 
+                  src="/assets/Portfolio_img.webp" 
                   alt="Ganeshyam Verma" 
                   className="w-full max-w-md mx-auto rounded-2xl ring-2 ring-white/10 shadow-2xl" 
                 />
